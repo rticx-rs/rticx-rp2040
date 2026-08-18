@@ -1,0 +1,5 @@
+[workspace]
+# Default is `true` (publish on every push) — MUST be false so we only
+# publish when the release PR is merged.
+release_always = false
+repo_url = "https://github.com/rticx-rs/rticx-rp2040"

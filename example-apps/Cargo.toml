@@ -3,6 +3,7 @@ name = "rticx-rp2040-example-apps"
 version = "0.1.0"
 edition = "2024"
 authors = ["Zakaria Madaoui"]
+publish = false
 
 [features]
 swtasks = ["rticx-rp2040/swtasks"]
