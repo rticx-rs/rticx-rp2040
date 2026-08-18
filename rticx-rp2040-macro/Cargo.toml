@@ -5,7 +5,7 @@ edition = "2024"
 authors = ["Zakaria Madaoui"]
 description = "Proc-macro crate for the RTICX RP2040 distribution"
 license = "MIT"
-repository = "https://github.com/rticx-rs/rticx"
+repository = "https://github.com/rticx-rs/rticx-rp2040"
 homepage = "https://github.com/rticx-rs/rticx/wiki"
 keywords = ["rtic", "rticx", "rp2040", "proc-macro", "embedded"]
 categories = ["no-std", "embedded"]
@@ -18,10 +18,10 @@ proc-macro = true
 proc-macro2 = "1.0.79"
 quote = "1.0.35"
 syn = { version = "2.0.52", features = ["extra-traits", "full"] }
-rticx-core = { version = "0.2.0", path = "../../../rticx-core" }
-rticx-auto-assign = { version = "0.2.0", path = "../../../compilation-passes/rticx-auto-assign" }
-rticx-sw-pass = { version = "0.2.0", path = "../../../compilation-passes/rticx-sw-pass" }
-rticx-async-pass = { version = "0.2.0", path = "../../../compilation-passes/rticx-async-pass" }
+rticx-core = { version = "0.2" }
+rticx-auto-assign = { version = "0.2" }
+rticx-sw-pass = { version = "0.2" }
+rticx-async-pass = { version = "0.2" }
 
 [features]
 autoassign = []
