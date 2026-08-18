@@ -52,7 +52,7 @@ embedded-hal = "1.0.0"
 heapless = "0.9.3"
 panic-halt = "1.0.0"
 rp2040-boot2 = "0.3.0"
-rp2040-hal = { version = "0.10.2", features = ["critical-section-impl", "rt"] }
+rp2040-hal = { version = "0.12.0", features = ["critical-section-impl", "rt"] }
 rticx-rp2040 = { path = "../" }
 rticx-async = { version = "0.2", optional = true }
 itoa = "1.0.11"

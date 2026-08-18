@@ -20,7 +20,7 @@ cortex-m = "0.7.8"
 rticx-rp2040-macro = { version = "0.2.0", path = "rticx-rp2040-macro" }
 rticx-async = { version = "0.2", optional = true }
 rticx-spsc = { version = "0.2" }
-rp2040-hal = { version = "0.10.2" }
+rp2040-hal = { version = "0.12.0" }
 
 [lints.rust]
 unexpected_cfgs = { level = "warn", check-cfg = ['cfg(have_basepri)'] }
