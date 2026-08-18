@@ -1,5 +1,9 @@
 # rticx-rp2040
 
+[![crates.io](https://img.shields.io/crates/v/rticx-rp2040)](https://crates.io/crates/rticx-rp2040)
+[![wiki](https://img.shields.io/badge/docs-wiki-red)](https://github.com/rticx-rs/rticx/wiki/)
+[![CI](https://github.com/rticx-rs/rticx-rp2040/actions/workflows/ci.yml/badge.svg)](https://github.com/rticx-rs/rticx-rp2040/actions/workflows/ci.yml)
+
 [RTICX](https://github.com/rticx-rs/rticx) multicore distribution for the Raspberry Pi Pico / RP2040 dual-core Cortex-M0+.
 
 ## Notes
