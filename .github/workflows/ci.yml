@@ -15,8 +15,8 @@ jobs:
     name: Check formatting
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: dtolnay/rust-toolchain@1.97
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@1.100
         with:
           components: rustfmt
       - uses: Swatinem/rust-cache@v2
@@ -26,8 +26,8 @@ jobs:
     name: Clippy warnings as errors
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: dtolnay/rust-toolchain@1.97
+      - uses: actions/checkout@v7
+      - uses: dtolnay/rust-toolchain@1.100
         with:
           components: clippy
           targets: thumbv6m-none-eabi
@@ -38,7 +38,7 @@ jobs:
     name: Build example apps (thumbv6m)
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: dtolnay/rust-toolchain@stable
         with:
           targets: thumbv6m-none-eabi
