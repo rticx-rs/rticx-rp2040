@@ -634,9 +634,9 @@ dependencies = [
 
 [[package]]
 name = "rticx-async-pass"
-version = "0.2.0"
+version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e0d56354c24c568be9409281a0a45a85a4e1d06e51413fbc9b15e9d0b6664e6c"
+checksum = "731197e16c00b760351cd0a6cac87746bd5575b4eed7d669cb7f35a9ff6a5e74"
 dependencies = [
  "heck 0.5.0",
  "proc-macro2",
@@ -677,7 +677,7 @@ dependencies = [
 
 [[package]]
 name = "rticx-rp2040"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "cortex-m",
  "rp2040-hal",
@@ -706,7 +706,7 @@ dependencies = [
 
 [[package]]
 name = "rticx-rp2040-macro"
-version = "0.2.0"
+version = "0.2.1"
 dependencies = [
  "proc-macro2",
  "quote",
